@@ -13,6 +13,9 @@
 		704AF310288BA76800BCBF1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704AF30E288BA76800BCBF1A /* Main.storyboard */; };
 		704AF312288BA76B00BCBF1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704AF311288BA76B00BCBF1A /* Assets.xcassets */; };
 		704AF315288BA76B00BCBF1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704AF313288BA76B00BCBF1A /* LaunchScreen.storyboard */; };
+		704AF321288E0BB200BCBF1A /* botaogerar.png in Resources */ = {isa = PBXBuildFile; fileRef = 704AF320288E0BB200BCBF1A /* botaogerar.png */; };
+		704AF323288E0BE200BCBF1A /* botaogerar-pressionado.png in Resources */ = {isa = PBXBuildFile; fileRef = 704AF322288E0BE200BCBF1A /* botaogerar-pressionado.png */; };
+		704AF325288E0C0100BCBF1A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 704AF324288E0C0100BCBF1A /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		704AF311288BA76B00BCBF1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704AF314288BA76B00BCBF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		704AF316288BA76B00BCBF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704AF320288E0BB200BCBF1A /* botaogerar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaogerar.png; sourceTree = "<group>"; };
+		704AF322288E0BE200BCBF1A /* botaogerar-pressionado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaogerar-pressionado.png"; sourceTree = "<group>"; };
+		704AF324288E0C0100BCBF1A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		704AF307288BA76800BCBF1A /* NumerosAleatorios */ = {
 			isa = PBXGroup;
 			children = (
-				704AF308288BA76800BCBF1A /* AppDelegate.swift */,
-				704AF30A288BA76800BCBF1A /* SceneDelegate.swift */,
-				704AF30C288BA76800BCBF1A /* ViewController.swift */,
-				704AF30E288BA76800BCBF1A /* Main.storyboard */,
-				704AF311288BA76B00BCBF1A /* Assets.xcassets */,
-				704AF313288BA76B00BCBF1A /* LaunchScreen.storyboard */,
+				704AF31F288DF7A300BCBF1A /* assets */,
+				704AF31E288DF78C00BCBF1A /* ui */,
+				704AF31D288DF76F00BCBF1A /* controller */,
+				704AF31C288DF75300BCBF1A /* delegate */,
 				704AF316288BA76B00BCBF1A /* Info.plist */,
 			);
 			path = NumerosAleatorios;
+			sourceTree = "<group>";
+		};
+		704AF31C288DF75300BCBF1A /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				704AF308288BA76800BCBF1A /* AppDelegate.swift */,
+				704AF30A288BA76800BCBF1A /* SceneDelegate.swift */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		704AF31D288DF76F00BCBF1A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				704AF30C288BA76800BCBF1A /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		704AF31E288DF78C00BCBF1A /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				704AF30E288BA76800BCBF1A /* Main.storyboard */,
+				704AF313288BA76B00BCBF1A /* LaunchScreen.storyboard */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		704AF31F288DF7A300BCBF1A /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				704AF324288E0C0100BCBF1A /* logo.png */,
+				704AF322288E0BE200BCBF1A /* botaogerar-pressionado.png */,
+				704AF320288E0BB200BCBF1A /* botaogerar.png */,
+				704AF311288BA76B00BCBF1A /* Assets.xcassets */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +168,10 @@
 			files = (
 				704AF315288BA76B00BCBF1A /* LaunchScreen.storyboard in Resources */,
 				704AF312288BA76B00BCBF1A /* Assets.xcassets in Resources */,
+				704AF325288E0C0100BCBF1A /* logo.png in Resources */,
 				704AF310288BA76800BCBF1A /* Main.storyboard in Resources */,
+				704AF321288E0BB200BCBF1A /* botaogerar.png in Resources */,
+				704AF323288E0BE200BCBF1A /* botaogerar-pressionado.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
